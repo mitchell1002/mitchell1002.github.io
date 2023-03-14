@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+  </head>
+  <body>
+    <!-- same as the sing in page using dive to create navigation bars-->
+    <div class="nav">
+      <div class="navlinks">
+        <ul>
+          <li>
+            <a class="navborder" href="#">BROWSE</a>
+          </li>
+          <li>
+            <a class="navborder" href="#">SPECIALS</a>
+          </li>
+          <li>
+            <a class="navborder" href="#">FAVOURITES</a>
+          </li>
+          <li>
+            <a class="navborder" href="#">RECIPES</a>
+          </li>
+          <li>
+            <a class="navborder" href="#">EASTER</a>
+          </li>
+        </ul>
+      </div>
+      <!--image gallery is the easy way to line up your images in 1  -->
+      <div class="gallery">
+        <a target="_blank" href="assets/img/freyas.jpg">
+          <img src="assets/img/freyas.jpg" alt="bread" width="600" height="400">
+        </a>
+        <ul>
+          <li>freyas toast bread tuscan</li>
+          <li>Mixed Grain</li>
+          <li>750g $0.49/100g</li>
+          <li>$3.70</li>
+          <div class="container">         
+            <!--using the calling function in javascripts this either helps the user select how many thingds they want or to validate any function-->            
+            <label>Total= <a id="Total">0</a></label>
+            <button type="button" onclick="increase()">+</button>
+            <button type="button" onclick="decrease()">-</button>
+        </ul>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="assets/img/plough.jpg">
+          <img src="assets/img/plough.jpg" alt="bread" width="600" height="400">
+        </a>
+        <ul>
+          <li>Ploughmans Bakery Toast</li>
+          <li>Bread Country Grains</li>
+          <li>750g $0.49/100g</li>
+          <h1>$3.70</h1>
+          <button class="buy">
+            <a href=""></a>Add to trolley </button>
+        </ul>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="assets/img/tip top.jpg">
+          <img src="assets/img/tip top.jpg" alt="bread" width="600" height="400">
+        </a>
+        <ul>
+          <li>Tip top super soft Toast</li>
+          <li>Bread white Superthick </li>
+          <li>700g $0.49/100g</li>
+          <h1>$3.40</h1>
+          <div class="container">                     
+            <label>Total= <a id="Totl">0</a></label>
+            <button type="button" onclick="incr()">+</button>
+            <button type="button" onclick="decr()">-</button>
+              </label>
+            </ul>
+      </div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="assets/img/natures.jpg">
+        <img src="assets/img/natures.jpg" alt="bread" width="600" height="400">
+      </a>
+      <ul>
+        <li>Natures fresh Toast Bread</li>
+        <li>Superthick</li>
+        <li>700g $0.47/100g</li>
+        <h1>$3.30</h1>
+        <button class="buy">
+          <a href=""></a>Add to Trolley </button>
+      </ul>
+    </div>
+    </div>
+    <script src="assets/scripts/java.js"></script><!--this links us to where our functions are beign called from-->
+  </body>
+</html>
+
+

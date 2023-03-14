@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>HTML img align Attribute </title>
-           
-    </head>
-    <body>
-<h1> MITCHELL CHINHANGA</h1>
-<p>A simple description of myself.</p>
-<p>Email: mitchell033ed@gmail.com</p>
-<h2>EDUCATION</h2>
-<p>Studying bachelor of information technology at Otago polytechnic.</p>
-<h3>About myself!!</h3>
-<p>My name is Mitchell Chinhanga, recently l moved to New zealand to persue in the path of information technologies from Zimbabwe<br>l am 21 years old and turning 22 this year,as part of this young generation we grow up not knowing wht excalty what we want to be in life, lucky l was brought with a very determined woman who l call my "MOTHER".<br>i was raised in a family of three which is me, my sister and mom,growing up in average household was one of my oppoturnity in life, my mother would do anything to make sure we have it not all but all essentials needed in life<br>i fell in love with computers in grade 5 that was when my mom sacrificed to get me my first laptop, with exictment within a day l knew how to use one.<br> despite the mere oppoturnities to be in infortion technologies, we managed to move my studies abroad which am now doing. </p>
-<h4>LIFETIME GOALS</h4>
-<ul>
-    <li>to work in a tech company</li>
-    <li>to travel the whole with my mom</li>
-    <li>to feed the homeless</li>
-    <meta charset="UTF-8">
-</ul>
-<img src="assets/image/IMG_20220828_120916_452.jpg" height="200" width="200" alt="IMG_20220828_120916_452" class="top">
-<p><a href="https://www.w3schools.com/">w3schools</a></p>
- </body>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!---the link for styke sheet is put inside the head-->
+      
+  </head>
+  <body>
+    <!--for our navigation bar we creat classes using div-->
+    <div class="nav">
+      <div class="navlinks">
+        <ul>
+          <li>
+            <a class="navborder" href="#">Home</a>
+          </li>
+          <li>
+            <a class="navborder" href="#">shopping page</a>
+          </li>
+        </ul>
+      </div>
+      <!--we are using div center so that the form goes excalty at the center of the page-->
+      <div class="center">
+        <h1>Sign in for online Shopping</h1>
+        <label for="Email"><!--for text input for my form we use input type to make atext box in the form -->
+          <b>Email</b>
+        </label>
+        <input type="email" placeholder="Enter Email" name="Email" id="Email" required>
+        <label for="Password">
+          <BR>
+          <b>Password</b>
+        </label>
+        <input type="password" placeholder="Enter Password" name="psw" id="Password" required>
+        <br>
+        <div class="pass">Forgot Password?</div>
+        <input type="checkbox" id="Remember me" name="Remember me" value="Remember me">
+        <button onclick="signin()">Sign in</button>
+        <br>
+        <!--used signup link enable the user to sign up if they dont have any account-->
+        <div class="signup-link"> Dont have account? <a href="#">Regeister now</a>
+        </div>
+        <script src="assets/scripts/java.js"></script>
+        </body>
 </html>
